@@ -38,46 +38,22 @@ footer{
     justify-content: center;
 }
 
-.card {
-    /* Add shadows to create the "card" effect */
-    width: 300px;
-    height: 500px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.icon-container{
     margin: 10px;
-
-}
-
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* On mouse-over, add a deeper shadow */
-.card-front:hover {
-    transition: transform 1s;
-    transform: rotateY(3.142rad);
-}
-
-.card-back:not(:hover){
-    transition: transform 1s;
-    transform: rotateY(3.142rad);
-}
-
-
-
-.synopsis-container{
-    height: 300px;
-    overflow-y:auto;
-}
-
-.movie-description{
-    padding: 10px
-}
-
-.movie-poster{
-    width: 300px;
+    width: 80px;
     height: 500px;
+    text-align: center;
 }
 
-p > span {
+.arrow{
     cursor: pointer;
+    left:-25px;
+    margin-top: 225px;
+    color: rgb(0, 152, 205);
+    font-size: 50px;
+}
+
+.arrow:hover{
+    font-size: 54px;
+    margin-top: 223px;
 }
